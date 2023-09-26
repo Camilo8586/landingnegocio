@@ -10,7 +10,7 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="./imagenes/logo  ucamp.jpg" height="60px" width="60px">
+                <img src="./imagenes/logo  ucamp.jpg" width="60px" height="60px">
             </div>
             <ul class="areas">
                 <li><a href="#catalogo">Catálogo</a></li>
@@ -19,32 +19,51 @@
             </ul>
         </nav>
     </header>
-
     <section class="jumbotron">
         <h1>Bienvenido a Luminar</h1>
-        <p>Ofrecemos una amplia variedad de luces para iluminar tu vida.</p>
+        <h2>Ofrecemos una amplia variedad de luces para iluminar tu vida.</h2>
+        <p>Ingresa tu correo para poder contactarnos contigo</p>
         <div class="correo">
             <input type="email" placeholder="Introduce tu correo">
             <button>¡Regístrate!</button>
         </div>
     </section>
-
-    <section class="catalogo" id="catalogo">
+    <section class="contenido" id="catalogo">
         <h2>Catálogo de Productos</h2>
-        <div class="producto">
-            <img src="producto1.jpg" alt="Producto 1">
-            <h3>Luz LED de Colores</h3>
-            <p>Ilumina tu hogar con nuestra luz LED de colores vibrantes.</p>
+        <div class="contenedor-productos">
+            <div class="card">
+                <div class="imagen" style="background-image: url('./imágenes/luz\ con\ sensor.webp')"></div>
+                <div class="textos">
+                    <h3>Luz led con sensor</h3>
+                    <p>$300.00</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imagen" style="background-image: url('./imágenes/luces-solares-led.jpg')"></div>
+                <div class="textos">
+                    <h3>Luces solares para jardín</h3>
+                    <p>$350.00</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imagen" style="background-image: url('./imágenes/D_NQ_NP_606345-MCO50261231222_062022-O.webp')"></div>
+                <div class="textos">
+                    <h3>Luz de navidad para jardín</h3>
+                    <p>$250.00</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="imagen" style="background-image: url('./imágenes/luz\ para\ gabinete.jpg')"></div>
+                <div class="textos">
+                    <h3>Luz led para gabinetes</h3>
+                    <p>$500.00</p>
+                </div>
+            </div>
         </div>
-        <div class="producto">
-            <img src="producto2.jpg" alt="Producto 2">
-            <h3>Lámparas de Techo Modernas</h3>
-            <p>Decora tu espacio con nuestras elegantes lámparas de techo.</p>
-        </div>
-        <!-- Agrega más productos según sea necesario -->
     </section>
-
-    <section class="blog" id="blog">
+    
+    <section class="contenido" id="blog">
         <h2>Blog</h2>
         <div class="entrada">
             <img src="blog1.jpg" alt="Entrada de Blog 1">
