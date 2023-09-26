@@ -1,19 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Luminar</title>
-    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <div class="contenedor">
-        <div class="elemento amarillo"><img src="./imagenes/logo  ucamp.jpg" width="60px" height="60px"></div>
-        <div class="elemento amarillo"><h3>¿Quienes somos?</h3></div>
-        <div class="elemento amarillo"><h3>Catalogo</h3></div>
-        <div class="elemento amarillo"><h3>Contacto</h3></div>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./imagenes/logo  ucamp.jpg" height="60px" width="60px">
+            </div>
+            <ul class="areas">
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-      </div>
+    <section class="jumbotron">
+        <h1>Bienvenido a Luminar</h1>
+        <p>Ofrecemos una amplia variedad de luces para iluminar tu vida.</p>
+        <div class="correo">
+            <input type="email" placeholder="Introduce tu correo">
+            <button>¡Regístrate!</button>
+        </div>
+    </section>
 
+    <section class="catalogo" id="catalogo">
+        <h2>Catálogo de Productos</h2>
+        <div class="producto">
+            <img src="producto1.jpg" alt="Producto 1">
+            <h3>Luz LED de Colores</h3>
+            <p>Ilumina tu hogar con nuestra luz LED de colores vibrantes.</p>
+        </div>
+        <div class="producto">
+            <img src="producto2.jpg" alt="Producto 2">
+            <h3>Lámparas de Techo Modernas</h3>
+            <p>Decora tu espacio con nuestras elegantes lámparas de techo.</p>
+        </div>
+        <!-- Agrega más productos según sea necesario -->
+    </section>
+
+    <section class="blog" id="blog">
+        <h2>Blog</h2>
+        <div class="entrada">
+            <img src="blog1.jpg" alt="Entrada de Blog 1">
+            <h3>Consejos para la Iluminación del Hogar</h3>
+            <p>Aprende cómo mejorar la iluminación de tu hogar con nuestros consejos.</p>
+        </div>
+        <div class="entrada">
+            <img src="blog2.jpg" alt="Entrada de Blog 2">
+            <h3>Las Últimas Tendencias en Iluminación</h3>
+            <p>Descubre las tendencias más recientes en iluminación de interiores y exteriores.</p>
+        </div>
+        <!-- Agrega más entradas de blog o artículos de catálogo según sea necesario -->
+    </section>
+
+    <section class="adicionales">
+        <!-- Agrega secciones adicionales aquí según sea necesario -->
+    </section>
+
+    <footer id="contacto">
+        <div class="redes-sociales">
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram.png" alt="Instagram"></a>
+        </div>
+        <p>&copy; 2023 Tu Negocio de Luces</p>
+    </footer>
 </body>
 </html>
